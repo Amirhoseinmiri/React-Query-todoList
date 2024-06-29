@@ -167,8 +167,6 @@ A query function can be literally any function that returns a promise. The promi
 
 #### Error Handling
 
-<img src="src\assets\react.svg"/>
-
 ```js
 const Items = () => {
   const { isLoading, data, error, isError } = useQuery({
